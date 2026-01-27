@@ -1,0 +1,15 @@
+__pycache__/
+
+pytest_cache/
+
+.vscode/
+
+data/
+*.dat
+*.npy
+*.npz
+user_embeddings.npz
+*.tmp
+*.tmp.npy
+tests/
+dump.txt
