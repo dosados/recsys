@@ -1,0 +1,6 @@
+BRUTEFORCE_FULL = "bruteforce_full"
+BRUTEFORCE_SUBSET = "bruteforce_subset"
+ANN_FULL = "ann_full"
+ANN_SUBSET = "ann_subset"
+
+ALL_RETRIEVAL_MODES = {BRUTEFORCE_FULL, BRUTEFORCE_SUBSET, ANN_FULL, ANN_SUBSET}

@@ -1,0 +1,10 @@
+{
+  "core_name": "gcn",
+  "params": {
+    "embed_dim": 64,
+    "epochs": 3,
+    "batch_size": 65536,
+    "lr": 0.001,
+    "work_dir": "./datasets/work"
+  }
+}

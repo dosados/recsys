@@ -1,0 +1,10 @@
+{
+  "core_name": "online_kmeans",
+  "params": {
+    "embed_dim": 64,
+    "k_centers": 4,
+    "drift_alpha": 0.1,
+    "batch_size": 250000,
+    "work_dir": "./datasets/work"
+  }
+}

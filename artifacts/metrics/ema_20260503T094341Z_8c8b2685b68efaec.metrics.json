@@ -1,0 +1,17 @@
+{
+  "run_meta": {
+    "core_name": "ema",
+    "config_hash": "8c8b2685b68efaec",
+    "data_slice": "week_05.parquet",
+    "k": 20,
+    "timestamp": "20260503T094341Z"
+  },
+  "metrics": {
+    "precision_at_k": 0.0006849999999999985,
+    "recall_at_k": 0.0031465024521397096,
+    "map_at_k": 0.0014757985790492967,
+    "ndcg_at_k": 0.002408711275343344,
+    "coverage_at_k": 0.004994599187134485,
+    "n_eval_users": 10000.0
+  }
+}

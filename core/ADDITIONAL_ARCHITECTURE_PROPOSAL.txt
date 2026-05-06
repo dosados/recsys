@@ -1,0 +1,26 @@
+Additional architecture proposal (post-MVP): Sequential Transformer core (SASRec-style)
+
+Why this core:
+- Current MVP cores rely mainly on static profile representations.
+- A sequential encoder can model short-term and long-term intent shifts directly from ordered user events.
+- It complements EMA/GCN/two-tower and is useful for reranking or direct retrieval embeddings.
+
+Proposed module layout:
+- core/sasrec/core.py
+- core/sasrec/sequence_builder.py
+- core/sasrec/model.py
+- core/sasrec/trainer.py
+- core/sasrec/inference.py
+- core/sasrec/config.py
+
+Contracts:
+- fit_offline(dataset, config) -> FitSummary
+- update_incremental(dataset, config) -> FitSummary
+- recommend(user_ids, k, retrieval_request) -> BatchRecommendationResult
+- export_user_embeddings(path) -> EmbeddingArtifactRef
+
+MVP-ready extension path:
+1) Build fixed-length per-user sequences from interactions.
+2) Train next-item objective with sampled negatives.
+3) Export user sequence embedding as retrieval query vector.
+4) Reuse existing retrieval + eval modules without contract changes.

@@ -1,0 +1,7 @@
+{
+  "mode": "bruteforce_subset",
+  "ann_enabled": false,
+  "subset_size": 100000,
+  "random_seed": 42,
+  "extra": {}
+}

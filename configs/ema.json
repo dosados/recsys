@@ -1,0 +1,10 @@
+{
+  "core_name": "ema",
+  "params": {
+    "embed_dim": 64,
+    "batch_size": 250000,
+    "ema_alpha": 0.95,
+    "work_dir": "./datasets/work",
+    "show_progress": true
+  }
+}

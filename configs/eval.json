@@ -1,0 +1,12 @@
+{
+  "k": 20,
+  "positive_policy": "positives_only",
+  "metrics_output_dir": "./artifacts/metrics",
+  "recommend_chunk_size": 10000,
+  "max_eval_users": 10000,
+  "retrieval": {
+    "mode": "bruteforce_full",
+    "ann_enabled": false,
+    "random_seed": 42
+  }
+}

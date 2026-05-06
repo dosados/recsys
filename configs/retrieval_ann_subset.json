@@ -1,0 +1,9 @@
+{
+  "mode": "ann_subset",
+  "ann_enabled": true,
+  "subset_size": 100000,
+  "random_seed": 42,
+  "extra": {
+    "nprobe": 16
+  }
+}
