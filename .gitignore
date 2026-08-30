@@ -15,3 +15,4 @@ user_embeddings.npz
 *.tmp.npy
 tests/
 dump.txt
+PROJECT_MODERNIZATION_IDEAS.txt
