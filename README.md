@@ -1,4 +1,6 @@
-# RecSys MVP
+# RecSys 
+
+(currently in progress; MVP stage)
 
 Modular end-to-end recommendation pipeline with unified contracts:
 - cores: `ema`, `gcn`, `online_kmeans`, `two_tower`, `popular`, `random`;
